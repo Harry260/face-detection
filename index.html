@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+  <img src="https://harrytom.ml/assets/me.jpg" class="prof-img" alt="">
+  <a href="https://github.com/harry260" class="github-button" target="_blank">GitHub</a>
+
+
+  <div class="video-wrap">
+    <video id="video" height="500px" width="800px" autoplay muted></video>
+  </div>
+
+  <div class="load-div">
+
+    <div class="load-txt">
+      <h1>Please Wait...</h1>
+      <p>Loading models and assets </p>
+    </div>
+
+  </div>
+
+  <nav class="credits-nav">
+
+    <label>Make your head vertically straight for best result</label>
+    <div class="tag-div">
+      <input type="checkbox" id="landmark-ch" onclick="myFunction()" checked>
+      <label for="myCheck">Show Landmarks</label> 
+    </div>
+
+  </nav>
+
+
+  <script defer src="js/face-api.min.js"></script>
+  <script defer src="js/script.js"></script>
+</body>
+</html>
